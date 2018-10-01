@@ -41,14 +41,14 @@ print("ATM will now dispense $20.00 bills to deliver the sum of $\(dollarValueRe
 
 
 
-let twentyDollarBillsDispenced = dollarValueRequested / 20
-var twentyDollarBillsRemaining = twentyDollarBillsDispenced
+let twentyDollarBillsDispensed = dollarValueRequested / 20
+var twentyDollarBillsRemaining = twentyDollarBillsDispensed
 repeat {
-    print("You have recieved a total of \(twentyDollarBillsDispenced)")
+    print("You have recieved a total of \(twentyDollarBillsDispensed)")
     twentyDollarBillsRemaining -= 1
 } while(twentyDollarBillsRemaining > 0)
-let fiveDollarBillsDispenced = dollarValueRequested / 5
-var fiveDollarBillsRemaining = twentyDollarBillsDispenced
+let fiveDollarBillsDispensed = dollarValueRequested / 5
+var fiveDollarBillsRemaining = twentyDollarBillsDispensed
 repeat {
-    print("You have recieved a total of \(fiveDollarBillsDispenced)")
+    print("You have recieved a total of \(fiveDollarBillsDispensed)")
 } while(fiveDollarBillsRemaining > 0) 
