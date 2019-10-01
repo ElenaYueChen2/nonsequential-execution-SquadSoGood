@@ -27,6 +27,7 @@
      Include an assert statement for each assumption that you are making. */
 assert(CommandLine.arguments.count == 2, "Exactly one argument is required")
 assert(Int(CommandLine.arguments[1]) != nil, "Argument must be an integer")
+assert(Double(CommandLine.arguments[1]) != nil, "Argument must be a double")
 // Continue with your code here
 let gridSize = Int(CommandLine.arguments[1])!
 assert(gridSize <= 20, "Grid is too big")
